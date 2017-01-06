@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CourseChoice</class>
+ <widget class="QWidget" name="CourseChoice">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>766</width>
+    <height>508</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CourseChoice</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTreeWidget" name="treeWidget_3">
+     <property name="maximumSize">
+      <size>
+       <width>741</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <attribute name="headerDefaultSectionSize">
+      <number>90</number>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>课程编号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>课程名称</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>教师</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>日期</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>开始节数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>结束节数</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>上课地点</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>现有容量</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>最大容量</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>选择课程</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>308</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>确认</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>328</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
